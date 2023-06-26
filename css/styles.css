@@ -33,7 +33,7 @@ img{
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
-    display: flex;
+    
 }
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
@@ -79,9 +79,11 @@ nav ul {
     display: flex;
     font-size: 20px;
 }
-.menu-link a {
+.menu-link {
     padding: 20px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -99,7 +101,7 @@ section#inicio {
     justify-content: space-around;
 }
 section {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -144,11 +146,7 @@ article.inicio_art p {
 
 section#contacto {
     text-align: center;
-    max-height: 400px;
-    height: auto;
-    overflow-y: auto;
-    
-    
+
 }
 section.contacto article {
     background-color: rgba(175, 89, 158, 0.3) ;
