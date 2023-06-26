@@ -5,61 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yoseth Falcon</title>
-
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-<!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
-    <!-- En este archivo escriban su HTML -->
 
 <body>
+    <!--header imagen y  barra de navegacion-->
     <header>
-        <a href="#inicio">Yoseth Falcon</a> 
-        <div>
-            <nav>
-                <a href="#"><img src="" alt="logo"></a>
-                <a href="#">inicio</a>
-                <a href="#">Contacto</a>
-            </nav>
-        </div>    
+          <img class="logo" src="./img/logo_yf.png" alt="imagen logo">
+          <nav>
+            <ul>
+                <li class="menu-link"><a href="#inicio"></a>Inicio</li>
+                <li class="menu-link"><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
     </header>
+    <main>
+        <!--seccion de inicio-->
+        <section id="inicio" class="inicio">
+            <figure class="mi_foto"   >
+                <img src="./img/IMG-20230611-WA0023.jpg" alt="mi foto">
+            </figure>
 
-    <section class="container">
+            <article class="inicio_art">
+                <h1>Hola soy Yoseth!</h1>
 
-        <div class="Mi_Foto">
-            <img src="./img/IMG-20230611-WA0023.jpg" alt="Mi foto">
-        </div>
+                <p> Soy un entusiasta adquiriendo conocimiento sobre programación, disfrutando el camino atraído por el frontend, desarrollando habilidades y aprovechando formación técnica de mis estudios secundarios; formación que me ha ayudado a entender este maravilloso mundo. Con hambre de desarrollar la mayor cantidad de habilidades de programación, sin olvidar la parte humana y todas las habilidades blandas que me ayudan a aprender y desarrollarme mucho más.</p>
 
-        <div class="Sobre_Mi">
-            <h1>Hola soy Yoseth</h1>
+            </article>
+            <a href="#" class="btn">Descarga mi C.V</a>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam vero earum similique reiciendis! Corporis pariatur unde exercitationem, et perferendis at sequi consequatur quas voluptate, obcaecati veritatis quae tempora officiis totam.
-            </p>
+        </section>
+        <!--seccion contacto-->
+        <section id="contacto" class="contacto">
+            <article>
+                <h2>Hablemos!</h2>
 
-            <form action=""><button>Descarga mi CV</button></form>
+                <p>Desde el descubrimiento de la programación, me he ingeniado el tiempo para aprender poco a poco, pero de manera constante. Agregar este conocimiento ha ayudado a mi mejora en el día a día. Pequeñas cosas del pensamiento de un programador han organizado enormemente mis tareas.</p>
 
-        </div>
-    </section>
+            </article>
 
-    <section class="container">
+            <ul>
+                <li class="iconos"><a href="#"><img src="./img/mail.png" alt="correo"></a></li>
+                <li class="iconos"><a href="#"><img src="./img/github.png" alt="github"></a></li>
+                <li class="iconos"><a href="#"><img src="./img/linkedin.png" alt="linkedin"></a></li>
+            </ul>
 
-        <div class="Hablemos">
+        </section>
+    </main>
+    <footer class="cod-latam">
+        <p>codigo latam, 2023 &copy Y. Falcon</p>
+    </footer>
 
-            <h1>Hablemos</h1>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quas vero ducimus temporibus error quae. Rerum dolore accusantium quas eos odit sapiente. Voluptatibus, aspernatur. Porro similique deleniti ea cupiditate minus!</p>
-
-        </div>
-
-        <div class="Iconos">
-            <a href="#"><img src="./img/github.png" alt="Github"></a>
-            <a href="#"><img src="./img/linkedin.png" alt="Linkedin"></a>
-            <a href="#"><img src="./img/mail.png" alt="Mail"></a>
-        </div>
-    </section>
-
-    <footer class="container"><p>Codigo Latam</p></footer>
-
-    
 </body>
 </html>
